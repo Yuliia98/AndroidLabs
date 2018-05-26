@@ -1,0 +1,85 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Введите адрес"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="@string/Name" />
+
+    <CheckBox android:id="@+id/havawi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Гавайская"
+        android:textSize="23sp"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox android:id="@+id/margarita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Маргарита"
+        android:textSize="23sp"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox android:id="@+id/fourcheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Четыре сыра"
+        android:textSize="23sp"
+        android:onClick="onCheckboxClicked"/>
+    <TextView
+        android:id="@+id/size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="@string/Size" />
+
+    <CheckBox android:id="@+id/sizeM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M"
+        android:textSize="23sp"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox android:id="@+id/sizeL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="L"
+        android:textSize="26sp"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox android:id="@+id/sizeXL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XL"
+        android:textSize="26sp"
+        android:onClick="onCheckboxClicked"/>
+
+    <Button
+        android:id="@+id/buttonOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="OnClickButtonOK"
+        android:text="OK"/>
+
+    <TextView
+        android:id="@+id/selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp" />
+
+</LinearLayout>

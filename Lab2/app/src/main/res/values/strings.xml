@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="Name">Оберіть тип піцци</string>
+    <string name="Size">Оберіть розмір піцци</string>
+    <string name="Ok">ОК</string>
+    <string name="Margo">Маргарита</string>
+    <string name="Four">Чотири сири</string>
+    <string name="Hav">Гавайська</string>
+    <string name="M">М (30 см)</string>
+    <string name="L">L (40 см)</string>
+    <string name="XL">XL (50 см)</string>
+</resources>

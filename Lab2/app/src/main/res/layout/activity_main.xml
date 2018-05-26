@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.kpi.mobiledev.lab1.lab2.MainActivity">
+
+
+    <fragment
+        android:id="@+id/input_fragment"
+        android:name="edu.kpi.mobiledev.lab1.lab2.InputFragment"
+        android:layout_width="match_parent"
+        android:layout_height="390dp" />
+
+    <fragment
+        android:id="@+id/output_fragment"
+        android:name="edu.kpi.mobiledev.lab1.lab2.OutputFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
